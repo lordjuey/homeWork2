@@ -1,30 +1,47 @@
 <!DOCTYPE html>
 <html lang="en">
-<!--have to link them together-->
+  <!--have to link them together-->
 
-<head>
+  <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <!--bootstrap link-->
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous" />
-    <title>juwonIndex</title>
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+      integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk"
+      crossorigin="anonymous"
+    />
+    <title>JuwonPortfolio</title>
     <link rel="stylesheet" href="style.css" />
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
-</head>
-
-<body>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+  </head>
+  <body>
     <header>
-        <nav class="navbar navbar-expand-lg navbar-light ">
-            <a class="navbar-brand" href="#">Juwon Hong</a>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <nav class="navbar navbar-expand-lg navbar-light">
+        <a class="navbar-brand"><span id="juwonName">Juwon Hong</span></a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-toggle="collapse"
+          data-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
           <span class="navbar-toggler-icon"></span>
         </button>
-            <div class="collapse navbar-collapse" id="navbarNav">
-                <ul class="navbar-nav ml-auto">
-                    <li class="nav-item active">
-                        <a class="nav-link" href="index.html">About Me <span class="sr-only">(current)</span></a
-              >
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="index.html"
+                >About Me <span class="sr-only"></span
+              ></a>
             </li>
 
             <li class="nav-item active">
@@ -32,10 +49,10 @@
                 >Portfolio <span class="sr-only">(current)</span></a
               >
             </li>
-            <li class="nav-item active">
+            <li class="nav-item">
               <a class="nav-link" href="contact.html"
-                >Contact<span class="sr-only">(current)</span></a
-              >
+                >Contact<span class="sr-only"></span
+              ></a>
             </li>
           </ul>
         </div>
@@ -57,31 +74,33 @@
         <div class="col-md-5">
           <div class="thumbnail">
             <img
-              src="image/handsanitiser.jpg"
-              alt="juwonAtwork"
-              title="handmade handsanitiser that are better than any other brand"
+              src="image/packMyBags_logo.png"
+              alt="packMyBags_logo"
+              title="pack your bag with accurate weather info"
+              onclick="location.href='https://mloibner.github.io/Pack-My-Bags/'"
               width="100%;"
               height="100%;"
             />
             <div class="text-block">
-              <p style="font-size: 20px;">Compounding with confidence</p>
+              <p style="font-size: 20px;">PackMyBags - Best Travel Companion</p>
               <p></p>
             </div>
           </div>
         </div>
-
         <div class="col-md-5">
           <div class="thumbnail">
             <img
-              src="image/javaScript.jpg"
-              alt="javaScript"
-              title="JS"
+              src="image/weatherApp.png"
+              alt="weatherApp"
+              title="dynamic weather App with 5 day forecast"
+              onclick="location.href='https://lordjuey.github.io/weatherApp/'"
               width="100%;"
               height="100%;"
             />
             <div class="text-block">
-              <p style="font-size: 20px;">javaScript Skillz</p>
-              <p></p>
+              <p style="font-size: 20px;">
+                Dynamic Weather App with 5 day forecast
+              </p>
             </div>
           </div>
         </div>
@@ -91,36 +110,18 @@
         <div class="col-md-5">
           <div class="thumbnail">
             <img
-              src="image/meandtina.jpg"
-              alt="Juwon and Christina"
-              title="Some good press"
+              src="image/DailyPlanner.png"
+              alt="Work Day Planner"
+              title="Plan your day at work"
+              onclick="location.href='https://lordjuey.github.io/weatherApp/'"
               width="100%;"
               height="100%;"
             />
             <div class="text-block">
-              <p style="font-size: 20px;">Some good press</p>
-              <p></p>
+              <p style="font-size: 20px;">Work Day Scheduler</p>
             </div>
           </div>
         </div>
-
-        <div class="col-md-5">
-          <div class="thumbnail">
-            <img
-              src="image/htmlcss.jpeg"
-              alt="htmlAndCss"
-              title="htmlAndCss"
-              width="100%;"
-              height="100%;"
-            />
-            <div class="text-block">
-              <p style="font-size: 20px;">Other skills</p>
-              <p></p>
-            </div>
-          </div>
-        </div>
-      </div>
-      <div class="row">
         <div class="col-md-5">
           <div class="thumbnail">
             <img
@@ -132,12 +133,21 @@
             />
             <div class="text-block">
               <p style="font-size: 20px;">otherGamblingSkills</p>
-              <p></p>
             </div>
           </div>
         </div>
       </div>
     </div>
+    <footer>
+      <p>
+        Written by Lordjuey
+        <i class="fa fa-github" id="github" style="font-size: 24px;"></i>
+        <i class="fa fa-linkedin" id='linkedIn' style="font-size: 24px;"></i><br />
+        <a href="mailto:juwon.dol@gmail.com">
+          Email Juwon
+        </a>
+      </p>
+    </footer>
     <!--JS component of bootstrap-->
     <script
       src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
@@ -151,14 +161,9 @@
     ></script>
     <script
       src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
-      integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw1004+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI"
+      integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI"
       crossorigin="anonymous"
     ></script>
-
-    <footer>
-      <p>Written by Lordjuey<br>
-      <a href="mailto:juwon.dol@gmail.com"> Email Juwon -> juwon.dol@gmail.com</a></p>
-                        </footer>
-</body>
-
+    <script src="script.js"></script>
+  </body>
 </html>

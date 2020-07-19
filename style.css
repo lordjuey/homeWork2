@@ -2,11 +2,11 @@ header {
     background: white;
 }
 
-.navbar-brand {
-    background: darkseagreen;
-    margin-left: 10%;
-    top: 0;
-    padding: 1%;
+#juwonName {
+    color:darkseagreen;
+    font-size: larger;
+    border:1px solid darkseagreen;
+    padding:5%;
 }
 
 body {
@@ -15,31 +15,29 @@ body {
 
 .container {
     margin-top: 2%;
-    margin-left: 5%;
     background: white;
 }
 
-.row {
-    margin-left: 5%;
-}
 
 .intro {
-    margin-top: 3%;
+    margin-top: 5%;
     text-align: left;
     color: darkseagreen;
 }
-
-.aboutMeP {
-    margin: auto;
-    font-size: large;
-    padding: auto;
-    margin-bottom: 2%;
+.highlights{
+    color : green;
+}
+.highlights2{
+    color : purple;
+}
+.thumbnail{
+    display:flex;
+    justify-content: center;
+    margin-bottom: 8%;
 }
 
-img {
-    margin: 2%;
-    margin-left: 0;
-    position: relative;
+.textBox{
+    margin-top:4%;
 }
 
 hr {
@@ -60,20 +58,21 @@ hr {
 
 footer {
     text-align: center;
-    padding: 3px;
+    padding: 1%;
     background: darkgrey;
     color: black;
-    position: fixed;
-    bottom: 0;
+    position: relative;
     width: 100%;
 }
 
-@media screen and (max-width:500px) {
-    .container {
-        width: 100%;
-        padding: 20px;
-    }
-    .aboutMeP {
-        width: 100%;
-    }
+.col-lg-10{
+    margin-bottom:10%;
+}
+
+.col-lg-8{
+    margin-bottom:10%;
+}
+
+#uni{
+    color:blue;
 }
